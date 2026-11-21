@@ -1,7 +1,7 @@
 import HeroCanvasName from "@/components/sections/hero/HeroCanvasName";
 import ServicesCanvasBoard from "@/components/sections/features/ServicesCanvasBoard";
 import GalleryFolderStack from "@/components/sections/gallery/GalleryFolderStack";
-import TeamPolaroidWall from "@/components/sections/team/TeamPolaroidWall";
+import CartoonLearningWorld from "@/components/sections/learning/CartoonLearningWorld";
 import TestimonialCommentCards from "@/components/sections/testimonial/TestimonialCommentCards";
 import FaqCommentThreads from "@/components/sections/faq/FaqCommentThreads";
 import ContactFramedWindow from "@/components/sections/contact/ContactFramedWindow";
@@ -31,16 +31,6 @@ export default function HomePage() {
           tags={[
             "Preschool Care",
             "Philadelphia"
-          ]}
-          avatars={[
-            {
-              imageSrc: "https://img.b2bpic.net/free-photo/smiley-elder-business-woman-out-working-laptop_23-2148661147.jpg",
-              imageAlt: "Smiley elder business woman out working on laptop"
-            },
-            {
-              imageSrc: "https://img.b2bpic.net/free-photo/medium-shot-smiley-woman-library_23-2148680199.jpg",
-              imageAlt: "Medium shot smiley woman at library"
-            }
           ]}
           timeZone="America/New_York"
           introDelay={1.6}
@@ -165,54 +155,11 @@ export default function HomePage() {
         />
       </div>
 
-      <div id="team" data-webild-section="TeamPolaroidWall" data-webild-section-id="TeamPolaroidWall-1" data-section="team">
-        <TeamPolaroidWall
-          note="Our educators"
-          title="Meet our loving team"
-          items={[
-            {
-              title: "Fabrina Ross",
-              description: "Center Director",
-              imageSrc: "https://img.b2bpic.net/free-photo/staying-connected-with-my-customers_329181-11579.jpg",
-              imageAlt: "Staying connected with my customers"
-            },
-            {
-              title: "Imogen Murphy",
-              description: "Lead Preschool Teacher",
-              imageSrc: "https://img.b2bpic.net/free-photo/portrait-mother-child-reading-together_23-2149404131.jpg",
-              imageAlt: "Portrait of mother and child reading together"
-            },
-            {
-              title: "Ryan Morales",
-              description: "Early Learning Teacher",
-              imageSrc: "https://img.b2bpic.net/free-photo/portrait-teacher-work-educational-system_23-2151737322.jpg",
-              imageAlt: "Portrait of teacher at work in the educational system"
-            },
-            {
-              title: "Molly Turner",
-              description: "Toddler Care Specialist",
-              imageSrc: "https://img.b2bpic.net/free-photo/female-psychologist-helping-girl-speech-therapy_23-2149113890.jpg",
-              imageAlt: "Female psychologist helping a girl in speech therapy"
-            },
-            {
-              title: "Daniel Henderson",
-              description: "Infant Care Specialist",
-              imageSrc: "https://img.b2bpic.net/free-photo/adorable-toddler-playing-with-car-toy-sitting-table-kindergarten_839833-24255.jpg",
-              imageAlt: "Adorable toddler playing with car toy sitting on table at kindergarten"
-            },
-            {
-              title: "Holly Coleman",
-              description: "Creative Arts Teacher",
-              imageSrc: "https://img.b2bpic.net/free-photo/little-girl-painting-easter-eggs-with-mother-kitchen_231208-5.jpg",
-              imageAlt: "Little girl painting easter eggs with mother in the kitchen"
-            },
-            {
-              title: "James Fletcher",
-              description: "Child Development Lead",
-              imageSrc: "https://img.b2bpic.net/free-photo/father-reading-book-daughters_23-2147737590.jpg",
-              imageAlt: "Father reading book to daughters"
-            }
-          ]}
+      <div id="learning-play" data-webild-section="CartoonLearningWorld" data-webild-section-id="CartoonLearningWorld-1" data-section="learning-play">
+        <CartoonLearningWorld
+          note="Magical World"
+          title="Learning, Creativity & Play"
+          description="Step into an animated 3D cartoon world designed for children's imagination, emotional growth, and joyful discovery."
         />
       </div>
 
@@ -241,20 +188,6 @@ export default function HomePage() {
               company: "Parent, NE Philly",
               imageSrc: "https://img.b2bpic.net/free-photo/high-angle-kids-learning-with-toys_23-2149455199.jpg",
               count: 5
-            },
-            {
-              quote: "My daughter loves coming here every day. The magical learning spaces and engaging activities make every morning so exciting!",
-              name: "Imogen Murphy",
-              company: "Parent, NE Philly",
-              imageSrc: "https://img.b2bpic.net/free-photo/medium-shot-camping-woman_23-2148223464.jpg",
-              count: 5
-            },
-            {
-              quote: "Highly recommended! So glad we found this amazing daycare facility in Philadelphia. Caring educators and a safe environment.",
-              name: "Ryan Morales",
-              company: "Parent, NE Philly",
-              imageSrc: "https://img.b2bpic.net/free-photo/smiling-daughter-father-looking-photographer_23-2148349787.jpg",
-              count: 5
             }
           ]}
           cardLabel="Google Review"
@@ -264,8 +197,6 @@ export default function HomePage() {
       <div id="faq" data-webild-section="FaqCommentThreads" data-webild-section-id="FaqCommentThreads-1" data-section="faq">
         <FaqCommentThreads
           title="Before you visit"
-          avatarSrc="https://img.b2bpic.net/free-photo/portrait-photogenic-blonde-woman-wearing-headphones_23-2148397120.jpg"
-          avatarAlt="Portrait of photogenic blonde woman wearing headphones"
           items={[
             {
               title: "What are your operating hours?",
