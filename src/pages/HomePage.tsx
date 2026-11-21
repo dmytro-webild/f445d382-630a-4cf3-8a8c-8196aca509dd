@@ -97,58 +97,58 @@ export default function HomePage() {
       <div id="gallery" data-webild-section="GalleryFolderStack" data-webild-section-id="GalleryFolderStack-1" data-section="gallery" data-scene>
         <GalleryFolderStack
           note="Magical Moments"
-          title="Daycare Life"
-          description="Take a peek at everyday learning, play, and creative discovery in Philly."
+          title="Daycare Life & Adventures"
+          description="Take a peek at everyday learning, storybook fantasy, and creative discovery in Philly."
           tabLabel="Activity"
           linkText="Learn More"
           fileLabel="Photo"
           items={[
             {
-              title: "Building Blocks",
-              date: "Morning Play",
-              description: "Toddlers explore geometry and balance through colorful wooden block stacking.",
+              title: "Frozen Kingdom & Storytime",
+              date: "Magical World",
+              description: "Children enter magical realms of fantasy, learning courage, teamwork, and friendship with beloved storybook heroes.",
               tags: [
-                "Early Math",
-                "Motor Skills"
+                "Fantasy & Stories",
+                "Imagination"
               ],
-              imageSrc: "https://img.b2bpic.net/free-photo/full-shot-mother-playing-with-kids_23-2150062560.jpg",
-              imageAlt: "Full shot mother playing with kids",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390616-tq0ab557.jpg",
+              imageAlt: "Magical Frozen characters in storybook world",
               href: "#contact"
             },
             {
-              title: "Number Puzzles",
-              date: "Learning Time",
-              description: "Interactive counting games help preschool children build early literacy and numeracy.",
+              title: "Wonderland Discovery",
+              date: "Curious Minds",
+              description: "Exploring wonder-filled lands of curiosity, colorful logic puzzles, and playful adventures every single day.",
               tags: [
-                "Puzzles",
-                "Counting"
+                "Curiosity",
+                "Creative Logic"
               ],
-              imageSrc: "https://img.b2bpic.net/free-photo/fidget-pop-it-toy-rainbow-color-antistress-fun-educational_58702-4128.jpg",
-              imageAlt: "Fidget pop it toy rainbow color - antistress, fun and educational",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390618-4e9uj1lh.jpg",
+              imageAlt: "Alice in wonderland animated fairy tale scene",
               href: "#contact"
             },
             {
-              title: "Group Games",
-              date: "Social Hour",
-              description: "Active indoor play builds physical balance, turn-taking skills, and strong friendships.",
+              title: "Zootopia Friendships",
+              date: "Friendship & Play",
+              description: "Developing empathy, kindness, and strong social bonds through interactive group games and playful activities.",
               tags: [
-                "Active Play",
-                "Teamwork"
+                "Social Bonds",
+                "Empathy & Play"
               ],
-              imageSrc: "https://img.b2bpic.net/free-photo/young-kids-playing-with-balloons_23-2147782067.jpg",
-              imageAlt: "Young kids playing with balloons",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390618-hecmaq09.jpg",
+              imageAlt: "Zootopia animated friends selfie scene",
               href: "#contact"
             },
             {
-              title: "Creative Play",
-              date: "Fun Projects",
-              description: "Hands-on problem solving and friendly games encourage social development.",
+              title: "Heroic Dreams & Growth",
+              date: "Confidence Building",
+              description: "Encouraging every young learner to discover their inner strength, confidence, and passion to reach for the stars.",
               tags: [
-                "Creativity",
-                "Focus"
+                "Confidence",
+                "Character Building"
               ],
-              imageSrc: "https://img.b2bpic.net/free-photo/high-angle-mother-son-playing-janga-game_23-2148443208.jpg",
-              imageAlt: "High angle mother and son playing janga game",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390619-fibhpwdp.jpg",
+              imageAlt: "Hercules animated character standing in clouds",
               href: "#contact"
             }
           ]}
@@ -167,30 +167,31 @@ export default function HomePage() {
         <TestimonialCommentCards
           note="Parent reviews"
           title="Philly parent reviews"
+          cardLabel="Google Review"
           items={[
             {
-              quote: "Amazing creations is one of the best daycares in the NE. Fabrina is caring, supportive and nurturing. My two littles adore her!",
+              quote: "Amazing creations is one of the best daycares in the NE. My kids been going here for a couple years now! Fabrina is absolutely amazing, caring, supportive and nurturing. My two littles adore her! They really do go above and beyond to protect your little ones. I’m blessed to find such an amazing daycare! If you’re looking for great hours and a team who treat your babies like their own, this is the place to be!",
               name: "Janice Rollinson",
-              company: "Parent, NE Philly",
-              imageSrc: "https://img.b2bpic.net/free-photo/cute-possum-reading_23-2151040991.jpg",
-              count: 5
+              rating: 5,
+              posted: "8 months ago",
+              company: "Parent Reviewer"
             },
             {
-              quote: "Amazing Creations is absolutely wonderful in every way! From the moment you walk in, you feel how much care they put into everything. Spotless and bright.",
-              name: "Jenna Darwish",
-              company: "Parent, NE Philly",
-              imageSrc: "https://img.b2bpic.net/free-photo/children-colored-caps-playing-game_23-2147807819.jpg",
-              count: 5
+              quote: "Absolutely love this daycare center. My son has been going here for a few months now and they are nothing short of amazing. The staff is so patient, nurturing and loving towards my son and the center always looks and smells clean so I have no worries when I drop him off everyday. I love that they take the initiative to wipe the kids face clean and change their shirts when they get dirty from snot and food. Many centers don’t do this, so I’m thankful that they do this extra step because I am a picky mom lol. I truly love this daycare and plan to keep my son here until he attends kindergarten, so if your hesitant about putting your child here, don’t be, they are GREAT!!!",
+              name: "Tyeasha Stanton",
+              rating: 5,
+              posted: "8 years ago",
+              company: "Parent Reviewer"
             },
             {
-              quote: "The staff here are patient with the kids, they build connections every single day. Highly recommend this caring daycare!",
-              name: "Hasna A.",
-              company: "Parent, NE Philly",
-              imageSrc: "https://img.b2bpic.net/free-photo/high-angle-kids-learning-with-toys_23-2149455199.jpg",
-              count: 5
+              quote: "A place where a child can go, and be a child. My son feels Loved, he feels cared for, and he is building his confidence through creative curriculum. Amazing creations is amazingly creating an honest, thoughtful and unique young man. These unbelievable care takers of my son are beyond words to describe. Each one unique and professional in ways that this society would be better if mimicked. My review is way over due. I Love and thank everyone who works in this establishment for the commitment and precision care given to not only my child but to all that grace your space. Continue to live in love and creating Amazing little human beings.",
+              name: "GrnIdBndt",
+              rating: 5,
+              posted: "5 years ago",
+              company: "Parent Reviewer",
+              positiveTags: ["Responsiveness", "Reliability", "Quality", "Professionalism", "Value"]
             }
           ]}
-          cardLabel="Google Review"
         />
       </div>
 
