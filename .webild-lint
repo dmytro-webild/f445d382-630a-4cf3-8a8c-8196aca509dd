@@ -1,0 +1,10 @@
+src/components/Layout.tsx
+src/components/sections/contact/ContactFramedWindow.tsx
+src/components/sections/faq/FaqCommentThreads.tsx
+src/components/sections/features/ServicesCanvasBoard.tsx
+src/components/sections/footer/FooterRulerIndex.tsx
+src/components/sections/gallery/GalleryFolderStack.tsx
+src/components/sections/hero/HeroCanvasName.tsx
+src/components/sections/team/TeamPolaroidWall.tsx
+src/components/sections/testimonial/TestimonialCommentCards.tsx
+src/pages/HomePage.tsx
