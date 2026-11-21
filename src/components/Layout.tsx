@@ -22,8 +22,8 @@ export default function Layout() {
               href: "#gallery"
             },
             {
-              name: "Our Team",
-              href: "#team"
+              name: "Learning & Play",
+              href: "#learning-play"
             },
             {
               name: "Reviews",
@@ -64,8 +64,8 @@ export default function Layout() {
                   href: "#gallery"
                 },
                 {
-                  text: "Educators",
-                  href: "#team"
+                  text: "Learning & Play",
+                  href: "#learning-play"
                 },
                 {
                   text: "Parent Reviews",
