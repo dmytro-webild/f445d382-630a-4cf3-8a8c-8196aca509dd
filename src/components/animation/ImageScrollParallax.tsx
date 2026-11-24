@@ -16,7 +16,7 @@ type ImageScrollParallaxProps = {
 };
 
 const ImageScrollParallax = ({
-  imageSrc = "https://images.pexels.com/photos/1179863/pexels-photo-1179863.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  imageSrc = "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg",
   imageAlt = "",
   strength = 0.15,
   className = "",
