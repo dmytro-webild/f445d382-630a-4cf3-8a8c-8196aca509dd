@@ -120,7 +120,7 @@ export default function HomePage() {
                 "Friendship",
                 "Social Play"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg?_wi=2",
               imageAlt: "Children engaging in joyful play and learning activities",
               href: "#contact"
             },
@@ -132,7 +132,7 @@ export default function HomePage() {
                 "Story Circles",
                 "Imagination"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg?_wi=2",
               imageAlt: "Children listening to interactive storytime and fairy tales",
               href: "#contact"
             },
@@ -144,7 +144,7 @@ export default function HomePage() {
                 "Group Games",
                 "Motor Skills"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-eywoyn9b.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-eywoyn9b.jpg?_wi=2",
               imageAlt: "Group activity and playful interaction at daycare",
               href: "#contact"
             },
@@ -156,7 +156,7 @@ export default function HomePage() {
                 "Creative Arts",
                 "3D Blocks"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg?_wi=2",
               imageAlt: "Children crafting and building with colorful blocks",
               href: "#contact"
             },
@@ -168,7 +168,7 @@ export default function HomePage() {
                 "Loving Care",
                 "Milestones"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-xpxcdfmm.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-xpxcdfmm.jpg?_wi=2",
               imageAlt: "Nurturing daycare moment celebrating milestone achievements",
               href: "#contact"
             }
@@ -253,15 +253,15 @@ export default function HomePage() {
           chip="ENROLL NOW"
           images={[
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg?_wi=3",
               imageAlt: "Children engaging in joyful daycare learning"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg?_wi=3",
               imageAlt: "Story circles and interactive activities"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg?_wi=3",
               imageAlt: "Creative building and hands-on play"
             }
           ]}
