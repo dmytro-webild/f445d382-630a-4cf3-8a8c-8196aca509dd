@@ -18,6 +18,10 @@ export default function Layout() {
               href: "#services"
             },
             {
+              name: "3D Adventures",
+              href: "#learning-play"
+            },
+            {
               name: "Locations",
               href: "#locations"
             },
@@ -58,6 +62,10 @@ export default function Layout() {
                 {
                   text: "Programs & Care",
                   href: "#services"
+                },
+                {
+                  text: "3D Cartoon Adventures",
+                  href: "#learning-play"
                 },
                 {
                   text: "Our Locations",
