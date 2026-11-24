@@ -10,10 +10,6 @@ export default function Layout() {
           brand="Amazing Creations"
           navItems={[
             {
-              name: "Movie Stories",
-              href: "#gallery"
-            },
-            {
               name: "Home",
               href: "#hero"
             },
@@ -22,12 +18,16 @@ export default function Layout() {
               href: "#services"
             },
             {
-              name: "3D Adventures",
-              href: "#learning-play"
+              name: "Movie Stories",
+              href: "#gallery"
             },
             {
               name: "Locations",
               href: "#locations"
+            },
+            {
+              name: "3D Adventures",
+              href: "#learning-play"
             },
             {
               name: "Reviews",
@@ -56,10 +56,6 @@ export default function Layout() {
               title: "Navigation",
               links: [
                 {
-                  text: "Cartoon Movie Stories",
-                  href: "#gallery"
-                },
-                {
                   text: "Home",
                   href: "#hero"
                 },
@@ -68,12 +64,16 @@ export default function Layout() {
                   href: "#services"
                 },
                 {
-                  text: "3D Cartoon Adventures",
-                  href: "#learning-play"
+                  text: "Cartoon Movie Stories",
+                  href: "#gallery"
                 },
                 {
                   text: "Our Locations",
                   href: "#locations"
+                },
+                {
+                  text: "3D Cartoon Adventures",
+                  href: "#learning-play"
                 },
                 {
                   text: "Parent Reviews",
