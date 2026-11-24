@@ -15,89 +15,6 @@ export default function HomePage() {
         word="Welcome to Amazing Creations!"
       />
 
-      <div id="gallery" data-webild-section="GalleryFolderStack" data-webild-section-id="GalleryFolderStack-1" data-section="gallery" data-scene>
-        <GalleryFolderStack
-          note="Magical Movie World"
-          title="Cartoon Stories & Magical Adventures"
-          description="Immerse in timeless animated classic tales, heroic journeys, beloved characters, and fantastical worlds."
-          tabLabel="Movie"
-          linkText="Enroll at Daycare"
-          fileLabel="Movie Card"
-          items={[
-            {
-              title: "Alice in Wonderland",
-              date: "Whimsical Classic",
-              intro: "Step down the rabbit hole into a wondrous world where curiosity unveils endless magic!",
-              description: "Follow brave Alice as she plummets into Wonderland—a realm of singing flowers, upside-down tea parties, and playful mysteries.",
-              story: "When curious young Alice follows the White Rabbit, she plummets into Wonderland. Along her journey, she meets the enigmatic Cheshire Cat, joins an unbirthday celebration with the Mad Hatter, and discovers her inner courage while standing tall against the Queen of Hearts.",
-              characters: ["Alice", "White Rabbit", "Mad Hatter", "Cheshire Cat", "Queen of Hearts"],
-              world: "Wonderland — A vibrant dreamscape of talking flora, labyrinth hedge mazes, floating tea sets, and size-changing magic.",
-              funFact: "The Cheshire Cat can vanish into thin air at any moment, leaving only his glowing, floating smile behind!",
-              tags: ["Wonderland", "Curiosity", "Tea Party", "Fantasy"],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731666-lgqy24pc.jpg",
-              imageAlt: "Alice surrounded by Wonderland characters including Mad Hatter, Cheshire Cat, and White Rabbit",
-              href: "#contact"
-            },
-            {
-              title: "Frozen",
-              date: "Winter Wonder",
-              intro: "Journey across shimmering glaciers into an enchanted kingdom bound by sisterly devotion!",
-              description: "Embark on an epic winter adventure with Princess Anna, mountain outdoorsman Kristoff, loyal reindeer Sven, and cheerful snowman Olaf.",
-              story: "When Elsa's icy powers accidentally plunge Arendelle into an eternal winter, her fearless sister Anna journeys into snowy peaks to bring her home. Guided by friendship and Olaf's warm hugs, they discover that true love dissolves even the frostiest magic.",
-              characters: ["Elsa the Snow Queen", "Princess Anna", "Olaf", "Kristoff", "Sven"],
-              world: "Arendelle & The Enchanted Forest — A glittering realm of towering ice castles, crystal glaciers, and elemental spirits.",
-              funFact: "Olaf was brought to life by Elsa's childhood magic and loves warm hugs more than anything in the world!",
-              tags: ["Arendelle", "Sisterhood", "Warm Hugs", "Ice Magic"],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731667-bqu497br.jpg",
-              imageAlt: "Elsa, Anna, Kristoff, Sven, and Olaf in a magical autumn frozen landscape",
-              href: "#contact"
-            },
-            {
-              title: "Zootopia",
-              date: "Urban Adventure",
-              intro: "Welcome to a thriving animal metropolis where anyone can be anything!",
-              description: "Hop into Zootopia alongside optimistic Officer Judy Hopps and quick-witted fox Nick Wilde as they solve a citywide mystery.",
-              story: "Determined bunny Judy Hopps becomes Zootopia’s first rabbit police officer. Teaming up with clever fox Nick Wilde, they race across climate-controlled biomes to solve a high-stakes case, proving that trust and teamwork overcome all odds.",
-              characters: ["Judy Hopps", "Nick Wilde", "Chief Bogo", "Flash the Sloth", "Bellwether"],
-              world: "Zootopia Metropolis — A modern animal city featuring climate zones like Sahara Square, Rainforest District, and Tundratown.",
-              funFact: "Flash the Sloth works at the DMV (Department of Mammal Vehicles) and takes full minutes just to stamp one document!",
-              tags: ["Metropolis", "Teamwork", "Determination", "Animal World"],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731667-weehecsd.jpg",
-              imageAlt: "Judy Hopps taking a selfie with Nick Wilde and Zootopia citizens",
-              href: "#contact"
-            },
-            {
-              title: "Hercules",
-              date: "Mythic Heroism",
-              intro: "Soar to legendary heights with a hero of mythic strength and a heart of gold!",
-              description: "Follow young Hercules as he trains with Phil the Satyr and rides winged horse Pegasus to prove himself worthy of Mount Olympus.",
-              story: "Born with godlike strength, Hercules sets out on a quest to become a true hero. Guided by his witty trainer Phil and soaring on Pegasus, he battles mythical beasts and thwarts Hades' schemes, learning that true heroism comes from the heart.",
-              characters: ["Hercules", "Pegasus", "Phil the Satyr", "Megara", "Hades"],
-              world: "Ancient Greece & Mount Olympus — A sunlit realm of golden palaces above the clouds, marble temples, and soaring skies.",
-              funFact: "Hercules' ultimate victory came not from physical muscle, but from risking everything to protect those he loved!",
-              tags: ["Mount Olympus", "Hero Quest", "Pegasus", "Courage"],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731668-ioxy3j8u.jpg",
-              imageAlt: "Hercules proudly posing with Mount Olympus in the background",
-              href: "#contact"
-            },
-            {
-              title: "Moana",
-              date: "Ocean Voyage",
-              intro: "Set sail across the turquoise ocean on an inspiring voyage to save an island paradise!",
-              description: "Embark on an epic sea voyage with brave Moana and demigod Maui as they restore the heart of Te Fiti.",
-              story: "Chosen by the living ocean, adventurous teenager Moana sets sail from her island home of Motunui to save her people. Joining forces with shapeshifting demigod Maui, they cross tempestuous seas and restore harmony to nature.",
-              characters: ["Moana", "Maui", "Heihei the Rooster", "Pua the Pig", "Te Fiti"],
-              world: "Motunui & Pacific Ocean — A tropical wonderland of crystal turquoise waters, bioluminescent reefs, and living ocean waves.",
-              funFact: "The ocean itself acts as a gentle, living character, waving to Moana and guiding her wayfaring journey!",
-              tags: ["Wayfinding", "Ocean Magic", "Motunui", "Courage"],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731668-ctv2ka8v.jpg",
-              imageAlt: "Moana and demigod Maui sailing across the ocean",
-              href: "#contact"
-            }
-          ]}
-        />
-      </div>
-
       <div id="hero" data-webild-section="HeroCanvasName" data-webild-section-id="HeroCanvasName-1" data-section="hero" data-scene>
         <HeroCanvasName
           note="Welcome to"
@@ -179,6 +96,89 @@ export default function HomePage() {
             }
           ]}
           linkText="Enroll today"
+        />
+      </div>
+
+      <div id="gallery" data-webild-section="GalleryFolderStack" data-webild-section-id="GalleryFolderStack-1" data-section="gallery" data-scene>
+        <GalleryFolderStack
+          note="Magical Movie World"
+          title="Cartoon Stories & Magical Adventures"
+          description="Immerse in timeless animated classic tales, heroic journeys, beloved characters, and fantastical worlds."
+          tabLabel="Movie"
+          linkText="Enroll at Daycare"
+          fileLabel="Movie Card"
+          items={[
+            {
+              title: "Alice in Wonderland",
+              date: "Whimsical Classic",
+              intro: "Step down the rabbit hole into a wondrous world where curiosity unveils endless magic!",
+              description: "Follow brave Alice as she plummets into Wonderland—a realm of singing flowers, upside-down tea parties, and playful mysteries.",
+              story: "When curious young Alice follows the White Rabbit, she plummets into Wonderland. Along her journey, she meets the enigmatic Cheshire Cat, joins an unbirthday celebration with the Mad Hatter, and discovers her inner courage while standing tall against the Queen of Hearts.",
+              characters: ["Alice", "White Rabbit", "Mad Hatter", "Cheshire Cat", "Queen of Hearts"],
+              world: "Wonderland — A vibrant dreamscape of talking flora, labyrinth hedge mazes, floating tea sets, and size-changing magic.",
+              funFact: "The Cheshire Cat can vanish into thin air at any moment, leaving only his glowing, floating smile behind!",
+              tags: ["Wonderland", "Curiosity", "Tea Party", "Fantasy"],
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731666-lgqy24pc.jpg",
+              imageAlt: "Alice surrounded by Wonderland characters including Mad Hatter, Cheshire Cat, and White Rabbit",
+              href: "#contact"
+            },
+            {
+              title: "Frozen",
+              date: "Winter Wonder",
+              intro: "Journey across shimmering glaciers into an enchanted kingdom bound by sisterly devotion!",
+              description: "Embark on an epic winter adventure with Princess Anna, mountain outdoorsman Kristoff, loyal reindeer Sven, and cheerful snowman Olaf.",
+              story: "When Elsa's icy powers accidentally plunge Arendelle into an eternal winter, her fearless sister Anna journeys into snowy peaks to bring her home. Guided by friendship and Olaf's warm hugs, they discover that true love dissolves even the frostiest magic.",
+              characters: ["Elsa the Snow Queen", "Princess Anna", "Olaf", "Kristoff", "Sven"],
+              world: "Arendelle & The Enchanted Forest — A glittering realm of towering ice castles, crystal glaciers, and elemental spirits.",
+              funFact: "Olaf was brought to life by Elsa's childhood magic and loves warm hugs more than anything in the world!",
+              tags: ["Arendelle", "Sisterhood", "Warm Hugs", "Ice Magic"],
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731667-bqu497br.jpg",
+              imageAlt: "Elsa, Anna, Kristoff, Sven, and Olaf in a magical autumn frozen landscape",
+              href: "#contact"
+            },
+            {
+              title: "Zootopia",
+              date: "Urban Adventure",
+              intro: "Welcome to a thriving animal metropolis where anyone can be anything!",
+              description: "Hop into Zootopia alongside optimistic Officer Judy Hopps and quick-witted fox Nick Wilde as they solve a citywide mystery.",
+              story: "Determined bunny Judy Hopps becomes Zootopia’s first rabbit police officer. Teaming up with clever fox Nick Wilde, they race across climate-controlled biomes to solve a high-stakes case, proving that trust and teamwork overcome all odds.",
+              characters: ["Judy Hopps", "Nick Wilde", "Chief Bogo", "Flash the Sloth", "Bellwether"],
+              world: "Zootopia Metropolis — A modern animal city featuring climate zones like Sahara Square, Rainforest District, and Tundratown.",
+              funFact: "Flash the Sloth works at the DMV (Department of Mammal Vehicles) and takes full minutes just to stamp one document!",
+              tags: ["Metropolis", "Teamwork", "Determination", "Animal World"],
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731667-weehecsd.jpg",
+              imageAlt: "Judy Hopps taking a selfie with Nick Wilde and Zootopia citizens",
+              href: "#contact"
+            },
+            {
+              title: "Hercules",
+              date: "Mythic Heroism",
+              intro: "Soar to legendary heights with a hero of mythic strength and a heart of gold!",
+              description: "Follow young Hercules as he trains with Phil the Satyr and rides winged horse Pegasus to prove himself worthy of Mount Olympus.",
+              story: "Born with godlike strength, Hercules sets out on a quest to become a true hero. Guided by his witty trainer Phil and soaring on Pegasus, he battles mythical beasts and thwarts Hades' schemes, learning that true heroism comes from the heart.",
+              characters: ["Hercules", "Pegasus", "Phil the Satyr", "Megara", "Hades"],
+              world: "Ancient Greece & Mount Olympus — A sunlit realm of golden palaces above the clouds, marble temples, and soaring skies.",
+              funFact: "Hercules' ultimate victory came not from physical muscle, but from risking everything to protect those he loved!",
+              tags: ["Mount Olympus", "Hero Quest", "Pegasus", "Courage"],
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731668-ioxy3j8u.jpg",
+              imageAlt: "Hercules proudly posing with Mount Olympus in the background",
+              href: "#contact"
+            },
+            {
+              title: "Moana",
+              date: "Ocean Voyage",
+              intro: "Set sail across the turquoise ocean on an inspiring voyage to save an island paradise!",
+              description: "Embark on an epic sea voyage with brave Moana and demigod Maui as they restore the heart of Te Fiti.",
+              story: "Chosen by the living ocean, adventurous teenager Moana sets sail from her island home of Motunui to save her people. Joining forces with shapeshifting demigod Maui, they cross tempestuous seas and restore harmony to nature.",
+              characters: ["Moana", "Maui", "Heihei the Rooster", "Pua the Pig", "Te Fiti"],
+              world: "Motunui & Pacific Ocean — A tropical wonderland of crystal turquoise waters, bioluminescent reefs, and living ocean waves.",
+              funFact: "The ocean itself acts as a gentle, living character, waving to Moana and guiding her wayfaring journey!",
+              tags: ["Wayfinding", "Ocean Magic", "Motunui", "Courage"],
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731668-ctv2ka8v.jpg",
+              imageAlt: "Moana and demigod Maui sailing across the ocean",
+              href: "#contact"
+            }
+          ]}
         />
       </div>
 
