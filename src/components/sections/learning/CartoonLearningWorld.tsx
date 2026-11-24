@@ -173,21 +173,6 @@ const STORIES: LearningStory[] = [
     colorTone: "bg-accent text-accent-foreground",
     icon: BookOpen,
   },
-  {
-    id: "mind-hands-on-blocks",
-    categoryKey: "mind",
-    categoryLabel: "Mind & Heart",
-    title: "3D Block Building & Logic",
-    character: "Master Builder Milo",
-    story: "Milo tests balance, symmetry, and architectural strength by stacking glowing 3D geometric shapes to solve bridge-building challenges.",
-    description: "Hands-on spatial reasoning, fine motor coordination, and early STEM problem solving through playful block creation.",
-    imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg?_wi=1",
-    imageAlt: "Playful 3D cartoon building blocks and problem-solving puzzles",
-    badge: "Spatial Logic",
-    highlights: ["STEM Foundations", "Motor Skills", "Spatial Puzzles"],
-    colorTone: "bg-secondary text-secondary-foreground",
-    icon: BrainCircuit,
-  },
 ];
 
 interface Riddle {
