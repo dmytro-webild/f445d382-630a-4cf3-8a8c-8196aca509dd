@@ -1,5 +1,6 @@
 import HeroCanvasName from "@/components/sections/hero/HeroCanvasName";
 import ServicesCanvasBoard from "@/components/sections/features/ServicesCanvasBoard";
+import CartoonLearningWorld from "@/components/sections/learning/CartoonLearningWorld";
 import GalleryFolderStack from "@/components/sections/gallery/GalleryFolderStack";
 import TestimonialCommentCards from "@/components/sections/testimonial/TestimonialCommentCards";
 import FaqCommentThreads from "@/components/sections/faq/FaqCommentThreads";
@@ -103,6 +104,14 @@ export default function HomePage() {
           note="Our Philly Centers"
           title="Two Convenient Locations"
           description="Visit our loving centers located at 8114 Castor Ave and 8962 Ashton Rd in Philadelphia, PA."
+        />
+      </div>
+
+      <div id="learning-play" data-webild-section="CartoonLearningWorld" data-webild-section-id="CartoonLearningWorld-1" data-section="learning-play">
+        <CartoonLearningWorld
+          note="3D Cartoon World"
+          title="Learning, Stories & Interactive Games"
+          description="Immerse in magical cartoon stories, 3D character adventures, riddles, and brain teasers across all learning categories."
         />
       </div>
 
