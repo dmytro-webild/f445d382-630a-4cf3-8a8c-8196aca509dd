@@ -174,8 +174,8 @@ export default function HomePage() {
               world: "Motunui & Pacific Ocean — A tropical wonderland of crystal turquoise waters, bioluminescent reefs, and living ocean waves.",
               funFact: "The ocean itself acts as a gentle, living character, waving to Moana and guiding her wayfaring journey!",
               tags: ["Wayfinding", "Ocean Magic", "Motunui", "Courage"],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795541731668-ctv2ka8v.jpg",
-              imageAlt: "Moana and demigod Maui sailing across the ocean",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795542254866-bkbh0mjt.jpg",
+              imageAlt: "Moana and demigod Maui with Heihei and Pua on the beach with parting ocean waves",
               href: "#contact"
             }
           ]}
