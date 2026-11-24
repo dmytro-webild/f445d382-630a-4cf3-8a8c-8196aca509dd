@@ -27,8 +27,8 @@ type ContactFramedWindowProps = {
 };
 
 const defaults: Photo[] = [
-  { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302974-qzyxbefs.jpg", imageAlt: "Children engaging in colorful cartoon learning" },
-  { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302975-196ctxl9.jpg", imageAlt: "Interactive storytime with animated characters" },
+  { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302974-qzyxbefs.jpg?_wi=1", imageAlt: "Children engaging in colorful cartoon learning" },
+  { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302975-196ctxl9.jpg?_wi=1", imageAlt: "Interactive storytime with animated characters" },
 ];
 
 const ContactFramedWindow = ({

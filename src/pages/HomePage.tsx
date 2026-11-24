@@ -34,8 +34,8 @@ export default function HomePage() {
             "Philadelphia"
           ]}
           avatars={[
-            { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg", imageAlt: "Cartoon character mascot" },
-            { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg", imageAlt: "Cartoon character mascot" }
+            { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg?_wi=3", imageAlt: "Cartoon character mascot" },
+            { imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg?_wi=3", imageAlt: "Cartoon character mascot" }
           ]}
           timeZone="America/New_York"
           introDelay={1.6}
@@ -257,15 +257,15 @@ export default function HomePage() {
           chip="ENROLL NOW"
           images={[
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302974-qzyxbefs.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302974-qzyxbefs.jpg?_wi=3",
               imageAlt: "Children engaging in joyful cartoon daycare learning"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302975-196ctxl9.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302975-196ctxl9.jpg?_wi=3",
               imageAlt: "Story circles and interactive cartoon activities"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-lgxwv9pl.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-lgxwv9pl.jpg?_wi=3",
               imageAlt: "Creative building and hands-on cartoon play"
             }
           ]}

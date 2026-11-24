@@ -19,10 +19,10 @@ type TeamPolaroidWallProps = {
 };
 
 const defaults: Person[] = [
-  { title: "Alex Rivera", description: "Creative Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg" },
-  { title: "Elena Vance", description: "Lead Designer", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg" },
-  { title: "Marcus Chen", description: "Technical Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-lgxwv9pl.jpg" },
-  { title: "Sarah Jenkins", description: "Brand Strategist", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-v5us3w6o.jpg" },
+  { title: "Alex Rivera", description: "Creative Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg?_wi=2" },
+  { title: "Elena Vance", description: "Lead Designer", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg?_wi=2" },
+  { title: "Marcus Chen", description: "Technical Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-lgxwv9pl.jpg?_wi=2" },
+  { title: "Sarah Jenkins", description: "Brand Strategist", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-v5us3w6o.jpg?_wi=2" },
 ];
 
 const TILTS = [-3, 2, -2, 3, -3, 2, -2, 3];
