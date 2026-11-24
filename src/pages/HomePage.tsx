@@ -19,7 +19,7 @@ export default function HomePage() {
       <div id="hero" data-webild-section="HeroCanvasName" data-webild-section-id="HeroCanvasName-1" data-section="hero" data-scene>
         <HeroCanvasName
           note="Welcome to"
-          title="AMAZING"
+          title="AMAZING CREATIONS"
           notes={[
             "2 Locations in NE Philly",
             "Open daily 6:00 AM – 6:00 PM"
