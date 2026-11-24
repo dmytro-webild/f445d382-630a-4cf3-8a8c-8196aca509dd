@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
-import { Sparkles, Heart, Puzzle, Star, Compass, Sun, CheckCircle2 } from "lucide-react";
+import { Sparkles, Heart, Puzzle, Star, Compass, Sun, CheckCircle2, BookOpen, Gamepad2, Palette, Rocket, Smile } from "lucide-react";
 import ImageScrollParallax from "@/components/animation/ImageScrollParallax";
 import NudgeHeader from "@/components/kit/NudgeHeader";
 
@@ -85,6 +85,66 @@ const FEATURES: LearningFeature[] = [
     highlights: ["Outdoor Fun", "Sensory Art", "Milestone Badges"],
     colorTone: "bg-[var(--tint-2)] text-secondary-foreground",
     icon: Sun,
+  },
+  {
+    id: "early-learning",
+    title: "Early Cognitive & Skill Discovery",
+    category: "Cognitive Growth",
+    description: "Engaging interactive learning routines that encourage early language development, pattern recognition, and inquisitive thinking.",
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302974-qzyxbefs.jpg",
+    imageAlt: "Children engaging in early cognitive play and learning activities",
+    badge: "Smart Learning",
+    highlights: ["Language & Math", "Pattern Recognition", "Focus Skills"],
+    colorTone: "bg-[var(--tint-1)] text-secondary-foreground",
+    icon: BookOpen,
+  },
+  {
+    id: "interactive-fun",
+    title: "Interactive Games & Group Fun",
+    category: "Group Interaction",
+    description: "Exciting interactive play sessions and group challenges designed to build cooperation, leadership, and lasting laughter.",
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302975-196ctxl9.jpg",
+    imageAlt: "Children participating in playful interactive group activities",
+    badge: "Teamwork & Fun",
+    highlights: ["Group Challenges", "Social Leadership", "Active Laughter"],
+    colorTone: "bg-accent text-accent-foreground",
+    icon: Gamepad2,
+  },
+  {
+    id: "creative-arts",
+    title: "Creative Arts & Expressive Craft",
+    category: "Art & Creation",
+    description: "Hands-on art workshops, finger painting, and expressive crafting sessions where little artists explore endless color and imagination.",
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-lgxwv9pl.jpg",
+    imageAlt: "Children painting and creating artistic crafts together",
+    badge: "Artistic Genius",
+    highlights: ["Finger Painting", "Creative Crafts", "Color Magic"],
+    colorTone: "bg-[var(--tint-3)] text-secondary-foreground",
+    icon: Palette,
+  },
+  {
+    id: "active-play",
+    title: "Physical Motion & Active Play",
+    category: "Physical Motion",
+    description: "Dynamic physical games, playground balance, and energetic motion activities that strengthen motor coordination and health.",
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-v5us3w6o.jpg",
+    imageAlt: "Children engaged in active physical play and movement games",
+    badge: "Active Energy",
+    highlights: ["Gross Motor", "Playground Fun", "Healthy Balance"],
+    colorTone: "bg-secondary text-secondary-foreground",
+    icon: Rocket,
+  },
+  {
+    id: "nurturing-care",
+    title: "Nurturing Care & Daily Joy",
+    category: "Loving Atmosphere",
+    description: "Warm, supportive individual care where every child feels cherished, safe, and happy as they grow and flourish every single day.",
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302977-kttkecfz.jpg",
+    imageAlt: "Warm and caring daycare environment filled with joyful smiles",
+    badge: "Pure Joy",
+    highlights: ["Nurturing Support", "Safe Atmosphere", "Cherished Smiles"],
+    colorTone: "bg-[var(--tint-2)] text-secondary-foreground",
+    icon: Smile,
   },
 ];
 
