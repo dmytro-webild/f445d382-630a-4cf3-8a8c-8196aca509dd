@@ -104,7 +104,25 @@ const FolderCard = ({ item, index, total, progress, tabLabel, linkText, fileLabe
             tone.card,
           )}
         >
-          <div className="flex min-w-0 flex-col gap-[1rem] px-[0.5rem] pt-[0.75rem] lg:h-full lg:justify-between lg:overflow-y-auto lg:px-[1rem] lg:pb-[1rem] lg:pt-[1.5rem] lg:pr-[1.25rem]">
+          <NudgeFrame tone={tone.frame} delay={0.1} className="min-h-[14rem] flex-1 lg:h-full lg:flex-none">
+            <motion.div
+              variants={{ hidden: { clipPath: "inset(100% 0% 0% 0%)", scale: 1.08 }, shown: { clipPath: "inset(0% 0% 0% 0%)", scale: 1 } }}
+              transition={reduce ? { duration: 0 } : { duration: kit.base, ease: kit.easeInOut }}
+              className="absolute inset-0 overflow-hidden"
+            >
+              <ImageScrollParallax imageSrc={item.imageSrc} imageAlt={item.imageAlt ?? item.title} strength={index % 2 ? 0.16 : 0.1} className="absolute inset-0 aspect-auto h-full rounded-none" />
+            </motion.div>
+            {fileLabel && (
+              <div className={cn("absolute right-[1rem] top-[1rem] flex items-center gap-[0.5rem] p-[0.375rem] pr-[0.625rem]", tone.chip)}>
+                <svg viewBox="0 0 20 20" aria-hidden="true" className="size-[1.25rem] flex-none" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <path d="M1 1 H19 V19 H1 Z M4 15 L8.5 9 L12 12.5 L16 6" />
+                </svg>
+                <p className="whitespace-nowrap font-[family-name:var(--font-label)] text-[length:var(--text-small)] uppercase leading-none">{fileLabel}</p>
+              </div>
+            )}
+          </NudgeFrame>
+
+          <div className="flex min-w-0 flex-col gap-[1rem] px-[0.5rem] pt-[0.75rem] lg:h-full lg:justify-between lg:overflow-y-auto lg:px-[1rem] lg:pb-[1rem] lg:pt-[1.5rem] lg:pl-[1.25rem]">
             <div className="flex flex-col gap-[0.75rem] lg:gap-[0.875rem]">
               {item.date && (
                 <div className="flex items-center gap-[0.625rem]">
@@ -181,23 +199,6 @@ const FolderCard = ({ item, index, total, progress, tabLabel, linkText, fileLabe
               </div>
             )}
           </div>
-          <NudgeFrame tone={tone.frame} delay={0.1} className="min-h-[14rem] flex-1 lg:h-full lg:flex-none">
-            <motion.div
-              variants={{ hidden: { clipPath: "inset(100% 0% 0% 0%)", scale: 1.08 }, shown: { clipPath: "inset(0% 0% 0% 0%)", scale: 1 } }}
-              transition={reduce ? { duration: 0 } : { duration: kit.base, ease: kit.easeInOut }}
-              className="absolute inset-0 overflow-hidden"
-            >
-              <ImageScrollParallax imageSrc={item.imageSrc} imageAlt={item.imageAlt ?? item.title} strength={index % 2 ? 0.16 : 0.1} className="absolute inset-0 aspect-auto h-full rounded-none" />
-            </motion.div>
-            {fileLabel && (
-              <div className={cn("absolute right-[1rem] top-[1rem] flex items-center gap-[0.5rem] p-[0.375rem] pr-[0.625rem]", tone.chip)}>
-                <svg viewBox="0 0 20 20" aria-hidden="true" className="size-[1.25rem] flex-none" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <path d="M1 1 H19 V19 H1 Z M4 15 L8.5 9 L12 12.5 L16 6" />
-                </svg>
-                <p className="whitespace-nowrap font-[family-name:var(--font-label)] text-[length:var(--text-small)] uppercase leading-none">{fileLabel}</p>
-              </div>
-            )}
-          </NudgeFrame>
           {!still && <motion.div aria-hidden="true" style={{ opacity: dim }} className="pointer-events-none absolute inset-0 bg-black" />}
         </div>
       </motion.article>
