@@ -5,6 +5,7 @@ import CartoonLearningWorld from "@/components/sections/learning/CartoonLearning
 import TestimonialCommentCards from "@/components/sections/testimonial/TestimonialCommentCards";
 import FaqCommentThreads from "@/components/sections/faq/FaqCommentThreads";
 import ContactFramedWindow from "@/components/sections/contact/ContactFramedWindow";
+import DaycareLocations from "@/components/sections/contact/DaycareLocations";
 import LoaderTypingBubble from "@/components/loaders/LoaderTypingBubble";
 
 export default function HomePage() {
@@ -19,11 +20,11 @@ export default function HomePage() {
           note="Welcome to"
           title="AMAZING"
           notes={[
-            "Open daily 6:00 AM – 6:00 PM",
-            "Magical daycare in Philly"
+            "2 Locations in NE Philly",
+            "Open daily 6:00 AM – 6:00 PM"
           ]}
-          status="Now enrolling for all ages"
-          description="Magical daycare in Philly where little minds grow and adventures bloom."
+          status="Now enrolling at Castor Ave & Ashton Rd"
+          description="Magical daycare with two convenient centers in Philadelphia where little minds grow and adventures bloom."
           primaryButton={{
             text: "Enroll Now",
             href: "#contact"
@@ -94,61 +95,81 @@ export default function HomePage() {
         />
       </div>
 
+      <div id="locations" data-webild-section="DaycareLocations" data-webild-section-id="DaycareLocations-1" data-section="locations">
+        <DaycareLocations
+          note="Our Philly Centers"
+          title="Two Convenient Locations"
+          description="Visit our loving centers located at 8114 Castor Ave and 8962 Ashton Rd in Philadelphia, PA."
+        />
+      </div>
+
       <div id="gallery" data-webild-section="GalleryFolderStack" data-webild-section-id="GalleryFolderStack-1" data-section="gallery" data-scene>
         <GalleryFolderStack
           note="Magical Moments"
-          title="Daycare Life & Adventures"
-          description="Take a peek at everyday learning, storybook fantasy, and creative discovery in Philly."
-          tabLabel="Activity"
+          title="Daycare Life & Photo Gallery"
+          description="Take a peek at everyday learning, creative discovery, and fun activities across our Philadelphia centers."
+          tabLabel="Photo"
           linkText="Learn More"
-          fileLabel="Photo"
+          fileLabel="Gallery"
           items={[
             {
-              title: "Frozen Kingdom & Storytime",
-              date: "Magical World",
-              description: "Children enter magical realms of fantasy, learning courage, teamwork, and friendship with beloved storybook heroes.",
+              title: "Joyful Learning & Friendships",
+              date: "Daily Adventure",
+              description: "Children build warm friendships, share smiles, and engage in cooperative play at Amazing Creations.",
               tags: [
-                "Fantasy & Stories",
+                "Friendship",
+                "Social Play"
+              ],
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg",
+              imageAlt: "Children engaging in joyful play and learning activities",
+              href: "#contact"
+            },
+            {
+              title: "Storytelling & Imagination",
+              date: "Creative Wonder",
+              description: "Immersive story circles and whimsical tales that spark curiosity and nurture young minds every single day.",
+              tags: [
+                "Story Circles",
                 "Imagination"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390616-tq0ab557.jpg",
-              imageAlt: "Magical Frozen characters in storybook world",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg",
+              imageAlt: "Children listening to interactive storytime and fairy tales",
               href: "#contact"
             },
             {
-              title: "Wonderland Discovery",
-              date: "Curious Minds",
-              description: "Exploring wonder-filled lands of curiosity, colorful logic puzzles, and playful adventures every single day.",
+              title: "Interactive Group Activities",
+              date: "Team Discovery",
+              description: "Developing teamwork, empathy, and early motor skills with fun interactive group games.",
               tags: [
-                "Curiosity",
-                "Creative Logic"
+                "Group Games",
+                "Motor Skills"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390618-4e9uj1lh.jpg",
-              imageAlt: "Alice in wonderland animated fairy tale scene",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-eywoyn9b.jpg",
+              imageAlt: "Group activity and playful interaction at daycare",
               href: "#contact"
             },
             {
-              title: "Zootopia Friendships",
-              date: "Friendship & Play",
-              description: "Developing empathy, kindness, and strong social bonds through interactive group games and playful activities.",
+              title: "Creative Arts & Building Blocks",
+              date: "Hands-on Craft",
+              description: "Hands-on sensory craft, 3D building blocks, and creative arts that empower children to innovate boldly.",
               tags: [
-                "Social Bonds",
-                "Empathy & Play"
+                "Creative Arts",
+                "3D Blocks"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390618-hecmaq09.jpg",
-              imageAlt: "Zootopia animated friends selfie scene",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg",
+              imageAlt: "Children crafting and building with colorful blocks",
               href: "#contact"
             },
             {
-              title: "Heroic Dreams & Growth",
-              date: "Confidence Building",
-              description: "Encouraging every young learner to discover their inner strength, confidence, and passion to reach for the stars.",
+              title: "Nurturing Care & Daily Milestones",
+              date: "Milestone Moments",
+              description: "Celebrating every milestone with dedicated, loving care in a safe and supportive environment.",
               tags: [
-                "Confidence",
-                "Character Building"
+                "Loving Care",
+                "Milestones"
               ],
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795291390619-fibhpwdp.jpg",
-              imageAlt: "Hercules animated character standing in clouds",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-xpxcdfmm.jpg",
+              imageAlt: "Nurturing daycare moment celebrating milestone achievements",
               href: "#contact"
             }
           ]}
@@ -205,9 +226,9 @@ export default function HomePage() {
               reactions: 4
             },
             {
-              title: "Where are you located in Philadelphia?",
-              description: "We are located at 8114-16 Castor Ave, Philadelphia, PA 19152.",
-              reactions: 5
+              title: "Where are your daycare centers located?",
+              description: "We have two locations in Northeast Philadelphia, PA: 8114 Castor Ave (PA 19152) and 8962 Ashton Rd (PA 19136). Both locations feature open daily hours.",
+              reactions: 8
             },
             {
               title: "How can I schedule a tour or enroll?",
@@ -228,20 +249,20 @@ export default function HomePage() {
           title="Enroll Your Child"
           submitText="Send Inquiry"
           successText="Thank you! We will contact you soon."
-          caption="Visit our Philly center!"
+          caption="Visit our Philly centers!"
           chip="ENROLL NOW"
           images={[
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/girl-building-jenga-tower_23-2147800203.jpg",
-              imageAlt: "Girl building jenga tower"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg",
+              imageAlt: "Children engaging in joyful daycare learning"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/young-children-with-autism-playing-together_23-2151241959.jpg",
-              imageAlt: "Young children with autism playing together"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg",
+              imageAlt: "Story circles and interactive activities"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/happy-family-playing-jenga_23-2147800149.jpg",
-              imageAlt: "Happy family playing jenga"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg",
+              imageAlt: "Creative building and hands-on play"
             }
           ]}
           nameLabel="Parent Name"

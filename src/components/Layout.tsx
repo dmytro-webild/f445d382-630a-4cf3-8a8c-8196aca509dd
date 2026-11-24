@@ -18,6 +18,10 @@ export default function Layout() {
               href: "#services"
             },
             {
+              name: "Locations",
+              href: "#locations"
+            },
+            {
               name: "Gallery",
               href: "#gallery"
             },
@@ -60,6 +64,10 @@ export default function Layout() {
                   href: "#services"
                 },
                 {
+                  text: "Our Locations",
+                  href: "#locations"
+                },
+                {
                   text: "Photo Gallery",
                   href: "#gallery"
                 },
@@ -78,15 +86,19 @@ export default function Layout() {
               ]
             },
             {
-              title: "Connect",
+              title: "Connect & Locations",
               links: [
                 {
-                  text: "Instagram",
-                  href: "https://instagram.com/amazingcreations"
+                  text: "Instagram (@ouramazingcreations)",
+                  href: "https://www.instagram.com/ouramazingcreations/"
                 },
                 {
-                  text: "Get Directions",
-                  href: "https://maps.google.com/?q=8114-16+Castor+Ave,+Philadelphia,+PA+19152"
+                  text: "Directions: 8114 Castor Ave",
+                  href: "https://www.google.com/maps/search/?api=1&query=8114+Castor+Ave,+Philadelphia,+PA+19152"
+                },
+                {
+                  text: "Directions: 8962 Ashton Rd",
+                  href: "https://www.google.com/maps/search/?api=1&query=8962+Ashton+Rd,+Philadelphia,+PA+19136"
                 },
                 {
                   text: "Call (215) 609-4499",
