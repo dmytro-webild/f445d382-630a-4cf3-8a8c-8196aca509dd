@@ -73,7 +73,7 @@ const FaqCommentThreads = ({
   description,
   headerLabel = "Question",
   askerLabel = "Visitor",
-  avatarSrc = "https://images.pexels.com/photos/36510739/pexels-photo-36510739.jpeg?auto=compress&cs=tinysrgb&w=200",
+  avatarSrc = "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302977-kttkecfz.jpg",
   avatarAlt = "Studio lead",
   items = [
     { title: "Do you design websites, or only digital products?", description: "Both. Next to app and dashboard work we design and build marketing sites, with a story first and visuals second." },

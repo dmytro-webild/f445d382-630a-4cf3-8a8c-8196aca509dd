@@ -31,13 +31,11 @@ type GalleryFolderStackProps = {
   className?: string;
 };
 
-const px = (id: number) => `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=1400`;
-
 const DEFAULT_ITEMS: Project[] = [
-  { title: "Meridian Health", date: "Mar 19, 2026", description: "When therapists spend less time clicking, they have more time for patients.", tags: ["Healthcare", "Workflow design"], imageSrc: px(11535790), imageAlt: "Woman sitting on a green chair against an orange wall", href: "#work" },
-  { title: "StyleBook", date: "Mar 2, 2026", description: "A salon booking tool the whole team actually wants to open.", tags: ["SaaS", "Transformation"], imageSrc: px(16982897), imageAlt: "Woman lying upside down on a pink chair", href: "#work" },
-  { title: "Homestead", date: "Jan 2, 2026", description: "Helping first-time homebuyers understand what they are looking at.", tags: ["Proptech", "0 to 1"], imageSrc: px(7061662), imageAlt: "Timber house with a covered terrace", href: "#work" },
-  { title: "North Freight", date: "Nov 14, 2025", description: "Getting seven stakeholders to agree on one shipping dashboard.", tags: ["Logistics", "Enterprise"], imageSrc: px(13961751), imageAlt: "Fleet of trucks parked in rows from above", href: "#work" },
+  { title: "Kroma — Identity & motion system", date: "2024", description: "A comprehensive brand system with adaptive typography, kinetic graphics, and generative patterns.", tags: ["Brand Identity", "Motion", "Design System"], imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg", imageAlt: "Animated cartoon children playing", href: "#" },
+  { title: "Velo — Spatial Audio Interface", date: "2023", description: "Next-generation audio suite featuring real-time spatial positioning and reactive UI nodes.", tags: ["UI/UX", "Audio", "3D Web"], imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg", imageAlt: "Magical cartoon storytime scene", href: "#" },
+  { title: "Aura — Generative Light Sculpture", date: "2024", description: "Interactive installation driven by environmental sensors and procedural shaders.", tags: ["Installation", "WebGL", "Sensors"], imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-eywoyn9b.jpg", imageAlt: "Group activity and cartoon play", href: "#" },
+  { title: "Orbit — Autonomous Data Engine", date: "2023", description: "Real-time analytics dashboard with predictive node mapping and fluid layouts.", tags: ["Dashboard", "Analytics", "Data Vis"], imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907732-769380mm.jpg", imageAlt: "Children crafting with cartoon building blocks", href: "#" },
 ];
 
 const TONES = [

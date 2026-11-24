@@ -18,13 +18,11 @@ type TeamPolaroidWallProps = {
   className?: string;
 };
 
-const px = (id: number) => `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=800`;
-
 const defaults: Person[] = [
-  { title: "Nora Kim", description: "Founder, design lead", imageSrc: px(7006690) },
-  { title: "Eli Brooks", description: "Product designer", imageSrc: px(12311564) },
-  { title: "Ana Silva", description: "Brand designer", imageSrc: px(38197025) },
-  { title: "Marcus Bell", description: "Design engineer", imageSrc: px(36510739) },
+  { title: "Alex Rivera", description: "Creative Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907729-otbhav9p.jpg" },
+  { title: "Elena Vance", description: "Lead Designer", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795539907731-z5szt3fr.jpg" },
+  { title: "Marcus Chen", description: "Technical Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-lgxwv9pl.jpg" },
+  { title: "Sarah Jenkins", description: "Brand Strategist", imageSrc: "https://storage.googleapis.com/webild/users/user_3MEwysOv31t7f9Ov9oDsUF6BXKv/uploaded-1795540302976-v5us3w6o.jpg" },
 ];
 
 const TILTS = [-3, 2, -2, 3, -3, 2, -2, 3];
