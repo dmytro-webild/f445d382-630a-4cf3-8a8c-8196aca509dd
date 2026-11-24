@@ -1,7 +1,6 @@
 import HeroCanvasName from "@/components/sections/hero/HeroCanvasName";
 import ServicesCanvasBoard from "@/components/sections/features/ServicesCanvasBoard";
 import GalleryFolderStack from "@/components/sections/gallery/GalleryFolderStack";
-import CartoonLearningWorld from "@/components/sections/learning/CartoonLearningWorld";
 import TestimonialCommentCards from "@/components/sections/testimonial/TestimonialCommentCards";
 import FaqCommentThreads from "@/components/sections/faq/FaqCommentThreads";
 import ContactFramedWindow from "@/components/sections/contact/ContactFramedWindow";
@@ -177,14 +176,6 @@ export default function HomePage() {
               href: "#contact"
             }
           ]}
-        />
-      </div>
-
-      <div id="learning-play" data-webild-section="CartoonLearningWorld" data-webild-section-id="CartoonLearningWorld-1" data-section="learning-play">
-        <CartoonLearningWorld
-          note="Magical World"
-          title="Learning, Creativity & Play"
-          description="Step into an animated 3D cartoon world designed for children's imagination, emotional growth, and joyful discovery."
         />
       </div>
 

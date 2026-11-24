@@ -26,10 +26,6 @@ export default function Layout() {
               href: "#gallery"
             },
             {
-              name: "Learning & Play",
-              href: "#learning-play"
-            },
-            {
               name: "Reviews",
               href: "#testimonial"
             },
@@ -70,10 +66,6 @@ export default function Layout() {
                 {
                   text: "Photo Gallery",
                   href: "#gallery"
-                },
-                {
-                  text: "Learning & Play",
-                  href: "#learning-play"
                 },
                 {
                   text: "Parent Reviews",
