@@ -30,6 +30,10 @@ export default function Layout() {
               href: "#learning-play"
             },
             {
+              name: "Explore Space",
+              href: "#explore-space"
+            },
+            {
               name: "Reviews",
               href: "#testimonial"
             },
@@ -74,6 +78,10 @@ export default function Layout() {
                 {
                   text: "3D Cartoon Adventures",
                   href: "#learning-play"
+                },
+                {
+                  text: "Explore Our Space",
+                  href: "#explore-space"
                 },
                 {
                   text: "Parent Reviews",

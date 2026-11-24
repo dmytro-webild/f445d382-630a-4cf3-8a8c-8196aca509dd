@@ -2,6 +2,7 @@ import HeroCanvasName from "@/components/sections/hero/HeroCanvasName";
 import ServicesCanvasBoard from "@/components/sections/features/ServicesCanvasBoard";
 import CartoonLearningWorld from "@/components/sections/learning/CartoonLearningWorld";
 import GalleryFolderStack from "@/components/sections/gallery/GalleryFolderStack";
+import ExploreSpaceGallery from "@/components/sections/gallery/ExploreSpaceGallery";
 import TestimonialCommentCards from "@/components/sections/testimonial/TestimonialCommentCards";
 import FaqCommentThreads from "@/components/sections/faq/FaqCommentThreads";
 import ContactFramedWindow from "@/components/sections/contact/ContactFramedWindow";
@@ -195,6 +196,14 @@ export default function HomePage() {
           note="3D Cartoon World"
           title="Learning, Stories & Interactive Games"
           description="Immerse in magical cartoon stories, 3D character adventures, riddles, and brain teasers across all learning categories."
+        />
+      </div>
+
+      <div id="explore-space" data-webild-section="ExploreSpaceGallery" data-webild-section-id="ExploreSpaceGallery-1" data-section="explore-space" data-scene>
+        <ExploreSpaceGallery
+          note="Our Daycare Facilities"
+          title="Explore Our Space"
+          description="Discover a welcoming, inspiring, and creative environment where children can learn, play, explore, and grow."
         />
       </div>
 
