@@ -17,6 +17,11 @@ type Project = {
   imageSrc: string;
   imageAlt?: string;
   href?: string;
+  intro?: string;
+  story?: string;
+  characters?: string[];
+  world?: string;
+  funFact?: string;
 };
 
 type GalleryFolderStackProps = {
@@ -95,20 +100,60 @@ const FolderCard = ({ item, index, total, progress, tabLabel, linkText, fileLabe
         <div
           data-tone={deepTone}
           className={cn(
-            "relative flex h-[calc(100svh-clamp(4.5rem,10svh,7rem)-5.5rem)] max-h-[48rem] flex-col gap-[1.25rem] p-[0.75rem] lg:grid lg:h-[min(calc(100svh-clamp(4.5rem,10svh,7rem)-8rem),44rem)] lg:grid-cols-2 lg:gap-0 lg:p-[1rem]",
+            "relative flex h-auto max-h-[52rem] flex-col gap-[1.25rem] p-[0.75rem] lg:grid lg:h-[min(calc(100svh-clamp(4.5rem,10svh,7rem)-6rem),46rem)] lg:grid-cols-2 lg:gap-0 lg:p-[1rem]",
             tone.card,
           )}
         >
-          <div className="flex min-w-0 flex-none flex-col gap-[1.25rem] px-[0.5rem] pt-[0.75rem] lg:h-full lg:justify-between lg:px-[1rem] lg:pb-[1rem] lg:pt-[2rem]">
-            <div className="flex flex-col gap-[0.75rem] lg:gap-[1.25rem]">
+          <div className="flex min-w-0 flex-col gap-[1rem] px-[0.5rem] pt-[0.75rem] lg:h-full lg:justify-between lg:overflow-y-auto lg:px-[1rem] lg:pb-[1rem] lg:pt-[1.5rem] lg:pr-[1.25rem]">
+            <div className="flex flex-col gap-[0.75rem] lg:gap-[0.875rem]">
               {item.date && (
                 <div className="flex items-center gap-[0.625rem]">
                   <div aria-hidden="true" className="size-[0.5rem] flex-none rounded-full bg-current" />
-                  <p className="whitespace-nowrap font-[family-name:var(--font-label)] text-[length:var(--text-small)] uppercase leading-none">{item.date}</p>
+                  <p className="whitespace-nowrap font-[family-name:var(--font-label)] text-[length:var(--text-small)] uppercase leading-none tracking-wider opacity-85">{item.date}</p>
                 </div>
               )}
               <h3 className="text-balance font-[family-name:var(--font-body)] text-[length:var(--text-h2)] font-medium leading-[1.05] tracking-[-0.03em] [overflow-wrap:anywhere]">{item.title}</h3>
-              {item.description && <p className="max-w-[26rem] text-balance text-[length:var(--text-body)] leading-[1.4]">{item.description}</p>}
+              
+              {(item.intro || item.description) && (
+                <p className="text-balance text-[length:var(--text-body)] leading-[1.4] opacity-90 font-medium">
+                  {item.intro ?? item.description}
+                </p>
+              )}
+
+              {item.story && (
+                <div className="rounded-xl p-[0.75rem] bg-current/5 border border-current/10 text-[length:var(--text-small)] leading-[1.45]">
+                  <span className="font-semibold block mb-1 uppercase tracking-wider text-[0.7rem] opacity-75">📖 Movie Story:</span>
+                  <p className="opacity-95">{item.story}</p>
+                </div>
+              )}
+
+              {item.characters && item.characters.length > 0 && (
+                <div className="text-[length:var(--text-small)] leading-[1.4]">
+                  <span className="font-semibold opacity-75 block mb-1 text-[0.75rem] uppercase tracking-wide">🎭 Main Characters:</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {item.characters.map((char, cIdx) => (
+                      <span key={`${char}-${cIdx}`} className="inline-block px-2.5 py-0.5 rounded-full bg-current/10 text-[length:var(--text-small)] font-medium">
+                        {char}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {item.world && (
+                <div className="text-[length:var(--text-small)] leading-[1.4]">
+                  <span className="font-semibold opacity-75">✨ Magical World: </span>
+                  <span className="opacity-90">{item.world}</span>
+                </div>
+              )}
+
+              {item.funFact && (
+                <div className="text-[length:var(--text-small)] leading-[1.4] opacity-90">
+                  <span className="font-semibold">💡 Fun Detail: </span>
+                  <span className="italic">{item.funFact}</span>
+                </div>
+              )}
+
               {item.href && (
                 <a href={item.href} className="btn-link mt-[0.25rem] self-start text-inherit">
                   {linkText}
@@ -118,8 +163,9 @@ const FolderCard = ({ item, index, total, progress, tabLabel, linkText, fileLabe
                 </a>
               )}
             </div>
+
             {item.tags && item.tags.length > 0 && (
-              <div className="flex flex-wrap gap-[0.75rem]">
+              <div className="flex flex-wrap gap-[0.5rem] pt-2">
                 {item.tags.map((tag, tagIndex) => (
                   <motion.div
                     key={`${tag}-${tagIndex}`}
@@ -135,7 +181,7 @@ const FolderCard = ({ item, index, total, progress, tabLabel, linkText, fileLabe
               </div>
             )}
           </div>
-          <NudgeFrame tone={tone.frame} delay={0.1} className="min-h-[10rem] flex-1 lg:h-full lg:flex-none">
+          <NudgeFrame tone={tone.frame} delay={0.1} className="min-h-[14rem] flex-1 lg:h-full lg:flex-none">
             <motion.div
               variants={{ hidden: { clipPath: "inset(100% 0% 0% 0%)", scale: 1.08 }, shown: { clipPath: "inset(0% 0% 0% 0%)", scale: 1 } }}
               transition={reduce ? { duration: 0 } : { duration: kit.base, ease: kit.easeInOut }}
